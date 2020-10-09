@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body {
+	background-attachment: fixed;
+	background-image: url("../images/galler.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: #E6DEF5;
+	margin: 10px 10px 0px 10px;
+}
+
+nav {
+	margin: 0px;
+	padding: 15px 0px 0px 0px;
+	width: 100%;
+	text-align: center;
+	background-image: url("../images/light-sauermaul.jpg");
+	
+	
+}
+
+nav p{
+	margin: 0px;
+	padding: 5px 10px 0px 10px;
+	height: 20px;
+	display: inline-block;
+}
+
+nav p a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+nav p a:hover{
+	color: #2A77E0;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+h1 {
+	font-size: 38px;
+	font-weight: 600;
+	text-align: left;
+	color: #000;
+	margin: 0;
+	padding: 15px 0px 15px 0px;
+}
+
+h2{
+	text-align: center;
+	font-weight: 400;
+}
+
+img-large{
+	height: 40px;
+	width: auto;
+	translate: rotateY(50deg);
+}
+
+
+h3  {
+	height: 30px;
+	font-size: 20px;
+	font-weight: 200
+	text-align: center;
+	color: #000;
+	margin: 0px;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.50);
+}
+p {
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 175%;
+	color: #000;
+	padding-bottom: 10px;
+}
+
+div p {
+	font-weight: 500;
+	color: #555353;
+}
+
+.feature-section {
+	margin: 15px 0px 15px 0px;
+	padding: 15px 0px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
+	background-image: url(../images/bricks.png);
+}
+.feature-section p {
+	color: #000000;
+	background-color: rgba(255,255,255,0.80);
+	font-size: 14px;
+	padding: 10px 10px 15px 10px;
+	margin: 0px;
+}
+.footer-style {
+	backgound-color: red;
+	color: #000;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.unordered {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	
+}
+
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+	list-style-type: none;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+	
+	nav{
+		height: 250px;
+	}
+	
+	nav p{
+	margin: 20px;
+	padding: 5px 20px 0px 20px;
+	height: 20px;
+	display: block;
+	
+}
+
+	
+}
+
+
